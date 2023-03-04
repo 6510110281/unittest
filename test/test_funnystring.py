@@ -7,19 +7,19 @@ class TestFunnyString(unittest.TestCase):
         x = 'acxz'
         result = funnyString(x)
         self.assertEqual(result,'Funny')
-    def test_bcxz_in_FunnyString(self):
+    def test_zxca_in_FunnyString(self):
         x = 'zxca'
         result = funnyString(x)
         self.assertEqual(result,'Funny')
-    def test_zxca_in_FunnyString(self):
+    def test_bcxz_in_FunnyString(self):
         x = 'bcxz'
         result = funnyString(x)
         self.assertEqual(result,'NotFunny')
-    def test_lmnop_in_FunnyString(self):
+    def test_zxcb_in_FunnyString(self):
         x = 'zxcb'
         result = funnyString(x)
         self.assertEqual(result,'NotFunny')
-    def test_loop_in_FunnyString(self):
+    def test_lmnop_in_FunnyString(self):
         x = 'lmnop'
         result = funnyString(x)
         self.assertEqual(result,'Funny')
